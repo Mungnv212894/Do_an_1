@@ -1,0 +1,8 @@
+[0/1] Re-running CMake...
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+See also "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/CMakeFiles/CMakeOutput.log".
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/mung/Desktop/DO_AN_1/do_an_ADC -B/home/mung/Desktop/DO_AN_1/do_an_ADC/build

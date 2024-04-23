@@ -1,0 +1,28 @@
+[1/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main.c.obj
+/home/mung/Desktop/DO_AN_1/do_an_ADC/main/main.c: In function 'app_main':
+/home/mung/Desktop/DO_AN_1/do_an_ADC/main/main.c:12:17: warning: passing argument 1 of 'xTaskCreate' from incompatible pointer type [-Wincompatible-pointer-types]
+   12 |     xTaskCreate(&control_led, "led_task", 2048, NULL, 5, NULL);
+      |                 ^~~~~~~~~~~~
+      |                 |
+      |                 void (*)(int)
+In file included from /home/mung/Desktop/DO_AN_1/do_an_ADC/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/mung/Desktop/DO_AN_1/do_an_ADC/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from /home/mung/Desktop/DO_AN_1/do_an_ADC/main/main.c:1:
+/home/mung/Desktop/DO_AN_1/do_an_ADC/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:371:44: note: expected 'TaskFunction_t' {aka 'void (*)(void *)'} but argument is of type 'void (*)(int)'
+  371 |     BaseType_t xTaskCreate( TaskFunction_t pxTaskCode,
+      |                             ~~~~~~~~~~~~~~~^~~~~~~~~~
+[2/10] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/__/lib/led_control.c.obj
+[3/10] Performing build step for 'bootloader'
+[1/1] cd /home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader/esp-idf/esptool_py && /home/mung/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/mung/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader/bootloader.bin
+Bootloader binary size 0x6860 bytes. 0x7a0 bytes (7%) free.
+[4/8] Linking C static library esp-idf/main/libmain.a
+[5/8] Generating ld/sections.ld
+[6/8] Linking CXX executable do_an_ADC.elf
+[7/8] Generating binary image from built executable
+esptool.py v4.7.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/mung/Desktop/DO_AN_1/do_an_ADC/build/do_an_ADC.bin
+[8/8] cd /home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/esptool_py && /home/mung/.espressif/python_env/idf5.2_py3.10_env/bin/python /home/mung/Desktop/DO_AN_1/do_an_ADC/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/mung/Desktop/DO_AN_1/do_an_ADC/build/partition_table/partition-table.bin /home/mung/Desktop/DO_AN_1/do_an_ADC/build/do_an_ADC.bin
+do_an_ADC.bin binary size 0x2b4a0 bytes. Smallest app partition is 0x100000 bytes. 0xd4b60 bytes (83%) free.
