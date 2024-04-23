@@ -1,4 +1,4 @@
-# Install script for directory: /home/mung/Desktop/DO_AN_1/do_an_ADC/components/esp_system/port
+# Install script for directory: /home/mung/Desktop/DO_AN_1/Do_an_1/components/esp_system/port
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/esp-idf/esp_system/port/soc/esp32/cmake_install.cmake")
 endif()
 

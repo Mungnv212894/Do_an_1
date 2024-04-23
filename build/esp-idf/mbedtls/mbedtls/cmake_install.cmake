@@ -1,4 +1,4 @@
-# Install script for directory: /home/mung/Desktop/DO_AN_1/do_an_ADC/components/mbedtls/mbedtls
+# Install script for directory: /home/mung/Desktop/DO_AN_1/Do_an_1/components/mbedtls/mbedtls
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/esp-idf/mbedtls/mbedtls/include/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/esp-idf/mbedtls/mbedtls/3rdparty/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/esp-idf/mbedtls/mbedtls/library/cmake_install.cmake")
 
 endif()
 

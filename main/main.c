@@ -11,6 +11,6 @@ void app_main() {
     http_sender_init();
 
     // Create tasks for ADC reader and HTTP sender
-    xTaskCreate(adc_reader_task, "adc_reader_task", 4096, NULL, 5, NULL);
-    xTaskCreate(http_sender_task, "http_sender_task", 4096, NULL, 5, NULL);
+    xTaskCreate(adc_reader_task, "adc_reader_task", 10000, NULL, 5, NULL);
+    xTaskCreate(http_sender_task, "http_sender_task", 10000, NULL, 5, NULL);
 }

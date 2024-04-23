@@ -1,4 +1,4 @@
-# Install script for directory: /home/mung/Desktop/DO_AN_1/do_an_ADC/components/esp_hw_support/port/esp32
+# Install script for directory: /home/mung/Desktop/DO_AN_1/Do_an_1/components/esp_hw_support/port/esp32
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

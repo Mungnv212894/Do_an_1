@@ -1,4 +1,4 @@
-/* * Data converted from /home/mung/Desktop/DO_AN_1/do_an_ADC/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /home/mung/Desktop/DO_AN_1/Do_an_1/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

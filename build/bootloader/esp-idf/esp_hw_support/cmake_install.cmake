@@ -39,6 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
 endif()
 

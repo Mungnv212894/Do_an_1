@@ -1,4 +1,4 @@
-# Install script for directory: /home/mung/Desktop/DO_AN_1/do_an_ADC/components/bootloader/subproject
+# Install script for directory: /home/mung/Desktop/DO_AN_1/Do_an_1/components/bootloader/subproject
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader/esp-idf/cmake_install.cmake")
+  include("/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader/esp-idf/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/CMakeFiles/bootloader"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/CMakeFiles/bootloader"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/CMakeFiles/bootloader.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/CMakeFiles/bootloader.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/CMakeFiles/bootloader-complete.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/CMakeFiles/bootloader-complete.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
 		},
 		{
-			"file" : "/home/mung/Desktop/DO_AN_1/do_an_ADC/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+			"file" : "/home/mung/Desktop/DO_AN_1/Do_an_1/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
 		}
 	],
 	"target" : 

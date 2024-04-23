@@ -1,1 +1,1 @@
-/home/mung/Desktop/DO_AN_1/do_an_ADC/components/mbedtls/mbedtls/library/psa_crypto_driver_wrappers_no_static.c
+/home/mung/Desktop/DO_AN_1/Do_an_1/components/mbedtls/mbedtls/library/psa_crypto_driver_wrappers_no_static.c
